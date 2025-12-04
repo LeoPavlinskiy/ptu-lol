@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Results (можно коммитить, но можно и игнорировать)
+wing-panel-design/data/results.md
+
+# Large files (большие файлы книг)
+docs/book/*.pdf
+docs/book/*.djvu
+docs/book/book-images/*.tiff
+
